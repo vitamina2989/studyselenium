@@ -1,4 +1,4 @@
-Bai 1: https://www.demo.guru99.com/V4/manager/addcustomerpage.php
+//Bai 1: https://www.demo.guru99.com/V4/manager/addcustomerpage.php
 	Customer Name: //input[@name='name']
 	Gender:
 		 - Male: //input[@value='m']
@@ -14,4 +14,14 @@ Bai 1: https://www.demo.guru99.com/V4/manager/addcustomerpage.php
 	Submit button: //input[@name='sub']
 	Reset button: //input[@name='res']
 	
-	
+//Bai 2: https://emu.sapphiregroup.com.au/
+    Email: //input[@id='_com_liferay_login_web_portlet_LoginPortlet_login']
+    Password: //input[@id='_com_liferay_login_web_portlet_LoginPortlet_password']
+    Remember Me: //input[@id='_com_liferay_login_web_portlet_LoginPortlet_rememberMe']
+    Sign In button: //button[@id='_com_liferay_login_web_portlet_LoginPortlet_ysna']
+Error message dưới trường password: “This field is required.” 
+    Error message:  //div[@role='alert']
+
+//Bai 3: Viết xpath để chọn space thứ 5
+   //li[@class='MuiButtonBase-root MuiListItem-root MuiMenuItem-root SpaceMenuItem__Wrapper-f26jwm-0 fWHqmz MuiMenuItem-gutters MuiListItem-gutters MuiListItem-button'] [position()='5']
+ 
