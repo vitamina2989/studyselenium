@@ -23,5 +23,5 @@ Error message dưới trường password: “This field is required.”
     Error message:  //div[@role='alert']
 
 //Bai 3: Viết xpath để chọn space thứ 5
-   //li[@class='MuiButtonBase-root MuiListItem-root MuiMenuItem-root SpaceMenuItem__Wrapper-f26jwm-0 fWHqmz MuiMenuItem-gutters MuiListItem-gutters MuiListItem-button'] [position()='5']
+    //li[@aria-disabled='false'] [position()='5']
  
