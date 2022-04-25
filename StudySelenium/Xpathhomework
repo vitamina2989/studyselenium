@@ -1,1 +1,17 @@
-Don't do everything
+Bai 1: https://www.demo.guru99.com/V4/manager/addcustomerpage.php
+	Customer Name: //input[@name='name']
+	Gender:
+		 - Male: //input[@value='m']
+		 - Female:  //input[@value='f']
+	Date of birth: (//input[@id='dob'])
+	Address: //textarea[@name='addr']
+	City: //input[@name='city']
+	State: //input[@name='state']
+	PIN: //input[@name='pinno']
+	Mobile Number: //input[@name='telephoneno']
+	Email: //input[@name='emailid']
+	Password: //input[@name='password']
+	Submit button: //input[@name='sub']
+	Reset button: //input[@name='res']
+	
+	
